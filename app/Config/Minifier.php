@@ -112,17 +112,13 @@ class Minifier extends \Michalsn\Minifier\Config\Minifier
     //--------------------------------------------------------------------
     public $js = [
         'app.min.js' => [
-            'plugins/jQuery/jQuery-3.6.0.min.js',
-            'assets/js/app.min.js',
-            'assets/js/demo.js',
-            'assets/bootstrap/js/bootstrap.min.js',
+            'plugins/jquery/jquery.min.js',
+            'plugins/bootstrap/js/bootstrap.min.js',
+            'assets/js/adminlte.min.js',
+            //'assets/js/demo.js',
             'assets/js/pages/dashboard2.js',
-            'plugins/fontawesome-6.1.1/js/all.min.js',
         ],
-        'jvectormap.min.js' => [
-            'plugins/jvectormap/jquery-jvectormap-1.2.2.min.js',
-            'plugins/jvectormap/jquery-jvectormap-world-mill-en.js',
-        ],
+
         'datatable.min.js' => [
 
         ],
@@ -149,13 +145,8 @@ class Minifier extends \Michalsn\Minifier\Config\Minifier
 
     public $css = [
         'app.min.css' => [
-            'assets/bootstrap/css/bootstrap.min.css',
-            'assets/css/AdminLTE.css',
-            'assets/css/skins/_all-skins.min.css',
-            'plugins/fontawesome-6.1.1/css/all.min.css',
-        ],
-        'jvectormap.min.css' => [
-            'plugins/jvectormap/jquery-jvectormap-1.2.2.css',
+            'assets/css/adminlte.css',
+            'plugins/fontawesome/css/all.min.css',
         ],
         'datatable.min.css' => [
             'plugins/datatables/jquery.dataTables.css',
